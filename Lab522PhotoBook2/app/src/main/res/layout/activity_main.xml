@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/item01"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/back"
+        android:clickable="true"
+        android:onClick="displayPicture"
+        android:orientation="horizontal"
+        android:tag="01">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:paddingRight="5sp"
+            app:srcCompat="@drawable/doll" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사진1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/artist01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이소영" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item02"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/back"
+        android:orientation="horizontal"
+        android:tag="02"
+        android:clickable="true"
+        android:onClick="displayPicture">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/red"
+            android:paddingRight="5sp"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사진2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/artist02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이소영" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item03"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/back"
+        android:orientation="horizontal"
+        android:tag="03"
+        android:clickable="true"
+        android:onClick="displayPicture">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/winter"
+            android:paddingRight="5sp"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사진3"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/artist03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이소영" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+

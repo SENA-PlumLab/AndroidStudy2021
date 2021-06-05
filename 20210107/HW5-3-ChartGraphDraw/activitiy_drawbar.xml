@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/ImageViewForChart">
+
+    <TextView
+        android:id="@+id/infoText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:text="빨:주식, 파:교통, 노:간식, 청록:문화, 녹:생활, 홍:저축"/>
+
+    <com.example.hw5_3_chartgraphdraw.BarCanvas
+        android:layout_width="975px"
+        android:layout_height="800px"
+        android:layout_margin="50px"
+        android:minHeight="500px"
+        android:layout_gravity="center_horizontal|center_vertical">
+
+    </com.example.hw5_3_chartgraphdraw.BarCanvas>
+
+<TableLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <TableRow>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="주식\n74.0%"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="교통\n5.0%"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="간식\n4.0%"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="문화\n0.0%"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="생활\n5.0%"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="저축\n7.0%"/>
+    </TableRow>
+
+
+</TableLayout>
+
+
+
+
+
+</LinearLayout>

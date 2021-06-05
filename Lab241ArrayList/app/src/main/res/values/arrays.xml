@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="my_list">
+        <item>목록 1111</item>
+        <item>리스트 2222</item>
+        <item>뷰 3333</item>
+        <item>신기해요 4444</item>
+        <item>와우 5555</item>
+    </array>
+
+
+
+
+</resources>

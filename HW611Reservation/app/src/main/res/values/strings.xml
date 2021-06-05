@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HW6-1-1-Reservation</string>
+    <string name="mov01">기생충</string>
+    <string name="mov02">어벤져스</string>
+    <string name="mov03">할리퀸</string>
+    <string name="mov04">토이스토리4</string>
+    <string name="mov05">겨울왕국2</string>
+    <string name="mov06">뮬란</string>
+    <string name="mov07">반도</string>
+    <string name="mov08">킹스맨</string>
+    <string name="mov09">코코</string>
+    <string name="mov10">알라딘</string>
+
+</resources>

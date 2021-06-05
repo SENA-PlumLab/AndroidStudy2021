@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/buttonPieChart"
+        android:tag="01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="원 그래프\nPIE-Graph"
+        android:backgroundTint="@color/red">
+
+    </Button>
+
+    <Button
+        android:id="@+id/buttonLineChart"
+        android:tag="02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="꺾은선 그래프\nLine-Graph"
+        android:backgroundTint="@color/yellow"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/buttonBarChart"
+        android:tag="03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="막대 그래프\nBAR-GRAPH"
+        android:backgroundTint="@color/cyan"
+        android:textColor="@color/black"/>
+</LinearLayout>
